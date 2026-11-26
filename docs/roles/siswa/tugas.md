@@ -5,6 +5,7 @@ outline: deep
 # Tugas
 
 Menu **Tugas** menampilkan tugas yang diberikan guru kepada siswa. Menu ini tampil di bagian bawah layar
+    <img src="/images/siswa/tugas/t3.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
 ## Status tugas
 

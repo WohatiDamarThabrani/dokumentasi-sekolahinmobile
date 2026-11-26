@@ -5,6 +5,7 @@ outline: deep
 # Pengumuman
 
 Menu **Pengumuman** berisi pengumuman yang diberikan oleh guru atau kepala sekolah.
+    <img src="/images/siswa/pengumuman/p1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
 ## Memilih jenis pengumuman
 

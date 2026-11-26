@@ -5,6 +5,7 @@ outline: deep
 # Dashboard
 
 Dashboard Siswa menampilkan ringkasan kegiatan belajar dan akses cepat ke fitur yang sering digunakan.
+    <img src="/images/siswa/dashboard/d1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
 ## Informasi hari ini
 
