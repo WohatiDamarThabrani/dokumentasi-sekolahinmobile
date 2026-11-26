@@ -6,6 +6,10 @@ export default defineConfig({
   description: 'Panduan pengguna aplikasi',
   themeConfig: {
     logo: '/logo.jpeg',
+    footer: {
+      message: 'Panduan pengguna Sekolahin Mobile',
+      copyright: 'Copyright © 2026 Sekolahin Mobile'
+    },
     nav: [
       { text: 'Beranda', link: '/' },
       {
