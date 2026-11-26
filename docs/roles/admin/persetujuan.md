@@ -5,6 +5,7 @@ outline: deep
 # Persetujuan
 
 Menu Persetujuan berisi daftar pengajuan, seperti izin siswa, cuti staf, dan pengajuan lainnya. Admin dapat meninjau setiap pengajuan, lalu menyetujui atau menolaknya.
+    <img src="/images/admin/persetujuan/p1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
 ## Menyaring jenis pengajuan
 

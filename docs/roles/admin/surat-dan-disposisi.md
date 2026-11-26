@@ -5,6 +5,7 @@ outline: deep
 # Surat dan Disposisi
 
 Menu Surat dan Disposisi digunakan untuk keperluan surat-menyurat, termasuk mengelola surat masuk, surat keluar, dan surat yang telah menjadi arsip.
+    <img src="/images/admin/surat/s1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
 ## Cara Mendisposisikan Surat
 

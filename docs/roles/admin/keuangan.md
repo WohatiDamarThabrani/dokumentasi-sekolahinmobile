@@ -5,6 +5,7 @@ outline: deep
 # Keuangan
 
 Menu Keuangan membantu Admin memantau pembayaran siswa dan mengelola tagihan sekolah.
+    <img src="/images/admin/keuangan/k5.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
 ## Memantau pembayaran
 

@@ -3,6 +3,7 @@ outline: deep
 ---
 
 # Pengumuman
+Menu ini digunakan untuk memberikan pemberitahuan kepada siswa atau wali murid.
 
 ## Cara Membuat pengumuman
 

@@ -5,6 +5,7 @@ outline: deep
 # Dasbor
 
 Dasbor menyajikan ringkasan kondisi sekolah dan pintasan ke menu yang perlu ditindaklanjuti oleh Admin.
+    <img src="/images/admin/dashboard/d3.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
 ## Ringkasan sekolah
 
