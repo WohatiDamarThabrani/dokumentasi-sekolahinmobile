@@ -5,6 +5,7 @@ outline: deep
 # Jadwal
 
 Menu **Jadwal** menampilkan jadwal pelajaran anak setiap hari.
+    <img src="/images/wali-murid/jadwal/j1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
 ## Kalender akademik
 

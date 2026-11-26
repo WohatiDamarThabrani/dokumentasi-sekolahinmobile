@@ -5,6 +5,7 @@ outline: deep
 # Tugas
 
 Menu **Tugas** menampilkan tugas-tugas yang diberikan guru kepada anak.
+    <img src="/images/wali-murid/tugas/t1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
 ## Status tugas
 

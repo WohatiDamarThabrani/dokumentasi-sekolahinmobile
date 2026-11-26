@@ -5,6 +5,7 @@ outline: deep
 # Nilai
 
 Menu **Nilai** menampilkan nilai harian anak.
+    <img src="/images/wali-murid/nilai/n1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
 ## Nilai harian
 

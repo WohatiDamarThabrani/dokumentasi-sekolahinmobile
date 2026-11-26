@@ -5,6 +5,7 @@ outline: deep
 # Catatan Harian
 
 Menu **Catatan Harian** berisi dua jenis catatan yang diberikan guru kepada anak: **Catatan Harian** dan **Catatan Perilaku**.
+    <img src="/images/wali-murid/catatan-harian/ch1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
 ## Catatan Harian
 

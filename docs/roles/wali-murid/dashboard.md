@@ -5,6 +5,7 @@ outline: deep
 # Dashboard Wali Murid
 
 Dashboard menampilkan ringkasan informasi dan aktivitas anak di sekolah.
+    <img src="/images/wali-murid/dashboard/dash5.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
 ## Memilih anak
 

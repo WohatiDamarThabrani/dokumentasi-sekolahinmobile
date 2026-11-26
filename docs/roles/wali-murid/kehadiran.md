@@ -4,6 +4,8 @@ outline: deep
 
 # Kehadiran
 
+  <img src="/images/wali-murid/kehadiran/k1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
+
 - Menu **Kehadiran** berisi informasi kehadiran anak di sekolah. Terdapat 2 kotak informasi pada menu ini, yaitu jumlah kehadiran dan jumlah izin/sakit. 
 
 - Wali Murid dapat melihat kalender bulan yang sedang berlangsung. Kalender ditandai dengan beberapa warna yang menandakan kehadiran anak di sekolah. Tanggal dengan warna hijau berarti anak hadir di sekolah, warna ungu berarti anak izin, warna orange berarti anak sakit, dan warna merah tanpa keterangan/alpa.
