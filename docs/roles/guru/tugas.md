@@ -4,7 +4,8 @@ outline: deep
 
 # Tugas
 
-Menu Tugas menampilkan daftar tugas yang telah diberikan kepada siswa. Guru dapat memilih kelas yang diajar untuk melihat tugas di kelas tersebut.
+Menu Tugas menampilkan daftar tugas yang telah diberikan kepada siswa. Guru dapat memilih kelas yang diampu untuk melihat tugas di kelas tersebut.
+     <img src="/images/guru/tugas/t6.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
 ## Memberikan tugas
 

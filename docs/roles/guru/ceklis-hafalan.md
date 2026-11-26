@@ -5,6 +5,7 @@ outline: deep
 # Ceklis Hafalan
 
 Menu Ceklis Hafalan digunakan untuk mencatat setoran hafalan siswa.
+    <img src="/images/guru/ceklis-hafalan/ch4.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
 ## Mencatat setoran
 

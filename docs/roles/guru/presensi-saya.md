@@ -5,6 +5,7 @@ outline: deep
 # Presensi Saya
 
 Menu **Presensi Saya** digunakan guru untuk melakukan absensi menggunakan pemindaian wajah.
+     <img src="/images/guru/presensi-saya/ps1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
 ## Melakukan presensi
 

@@ -4,7 +4,7 @@ outline: deep
 
 # Pengumuman
 
-Menu **Pengumuman** digunakan guru untuk membuat pengumuman bagi siswa atau orang tua siswa.
+Menu **Pengumuman** digunakan guru untuk membuat pengumuman kepada siswa atau wali murid.
 
 ## Membuat pengumuman
 

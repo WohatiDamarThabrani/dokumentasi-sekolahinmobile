@@ -5,6 +5,7 @@ outline: deep
 # Jadwal Mengajar
 
 Menu Jadwal Mengajar menampilkan jadwal mengajar guru pada hari yang sedang berjalan.
+    <img src="/images/guru/jadwal-mengajar/jm3.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
 ## Informasi yang ditampilkan
 

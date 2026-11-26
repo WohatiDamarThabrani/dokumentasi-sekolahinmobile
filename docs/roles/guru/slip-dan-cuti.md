@@ -5,6 +5,7 @@ outline: deep
 # Slip dan Cuti
 
 Menu **Slip dan Cuti** memiliki dua tab, yaitu **Slip Gaji** dan **Cuti**.
+     <img src="/images/guru/slip-cuti/sc3.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
 ## Slip gaji
 

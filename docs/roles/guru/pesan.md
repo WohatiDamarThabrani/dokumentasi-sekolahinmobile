@@ -4,7 +4,9 @@ outline: deep
 
 # Pesan
 
-Menu Pesan digunakan guru untuk mengirim pesan atau memulai percakapan dengan orang tua siswa.
+Menu Pesan digunakan guru untuk mengirim pesan kepada wali murid.
+      <img src="/images/guru/pesan/p4.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
+
 
 ## Memulai percakapan
 

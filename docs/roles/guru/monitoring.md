@@ -5,10 +5,11 @@ outline: deep
 # Monitoring
 
 Menu Monitoring membantu guru memantau kehadiran, setoran hafalan, perilaku, dan tugas siswa di kelas.
+     <img src="/images/guru/monitoring/m3.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
 ## Kehadiran siswa
 
-Guru dapat melihat data kehadiran siswa dan mencatat absensi untuk kelas.
+Guru dapat melihat data kehadiran siswa dan mencatat absensi.
 
 1. Buka menu **Monitoring** yang menempel di bagian bawah layar, lalu akan tampil halaman monitoring seperti pada gambar berikut:
     <img src="/images/guru/monitoring/m1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">

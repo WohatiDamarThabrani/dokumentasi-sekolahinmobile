@@ -5,6 +5,8 @@ outline: deep
 # Dashboard
 
 Dashboard Guru menampilkan informasi absensi siswa, perizinan siswa, penilaian tugas, serta jadwal mengajar hari ini.
+    <img src="/images/guru/dashboard/dash5.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
+
 
 ## Informasi siswa dan tugas
 

@@ -4,5 +4,6 @@ outline: deep
 
 # Kalender
 
-Untuk melihat kalender akademik, buka bagian **Kalender Akademik**. Kalender menampilkan tanggal libur, ujian, dan kegiatan atau acara tertentu. Pilih bulan untuk melihat informasi kalender pada bulan tersebut.
+Kalender menampilkan tanggal libur, ujian, dan acara-acara tertentu. Pilih bulan untuk melihat informasi acara pada bulan tersebut.
+     <img src="/images/guru/kalender/k1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
