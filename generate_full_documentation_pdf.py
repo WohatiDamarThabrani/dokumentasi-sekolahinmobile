@@ -15,6 +15,7 @@ from reportlab.lib.units import mm
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer, ListFlowable, Table, TableStyle, PageBreak, KeepTogether
+from reportlab.platypus.tableofcontents import TableOfContents
 
 ROOT = Path(__file__).resolve().parent
 DOCS_DIR = ROOT / 'docs'
@@ -688,7 +689,7 @@ def build_title_page_story(roles):
     ]
 
 
-def build_toc_story(roles):
+def build_toc_story(toc):
     styles = getSampleStyleSheet()
     heading_style = ParagraphStyle(
         name='TOCHeading',
@@ -699,64 +700,122 @@ def build_toc_story(roles):
         textColor=HexColor('#123B66'),
         spaceAfter=14,
     )
-    role_style = ParagraphStyle(
-        name='TOCRole',
-        parent=styles['BodyText'],
-        fontName=FONT_NAME_BOLD,
-        fontSize=10,
-        leading=16,
-        textColor=HexColor('#1F2937'),
-        spaceBefore=5,
-        spaceAfter=3,
-    )
-    menu_style = ParagraphStyle(
-        name='TOCMenu',
-        parent=styles['BodyText'],
-        fontName=FONT_NAME_BOLD,
-        fontSize=9,
-        leading=14.4,
-        leftIndent=12,
-        textColor=HexColor('#334155'),
-        spaceAfter=2,
-    )
-    page_style = ParagraphStyle(
-        name='TOCPage',
-        parent=styles['BodyText'],
-        fontName=FONT_NAME,
-        fontSize=8,
-        leading=12.8,
-        leftIndent=26,
-        textColor=HexColor('#475569'),
-        spaceAfter=1,
-    )
+    toc.levelStyles = [
+        ParagraphStyle(
+            name='TOCRole',
+            parent=styles['BodyText'],
+            fontName=FONT_NAME_BOLD,
+            fontSize=10,
+            leading=16,
+            textColor=HexColor('#1F2937'),
+            leftIndent=0,
+            firstLineIndent=0,
+            spaceBefore=5,
+            spaceAfter=3,
+        ),
+        ParagraphStyle(
+            name='TOCModule',
+            parent=styles['BodyText'],
+            fontName=FONT_NAME_BOLD,
+            fontSize=9,
+            leading=14.4,
+            leftIndent=12,
+            firstLineIndent=0,
+            textColor=HexColor('#334155'),
+            spaceAfter=2,
+        ),
+        ParagraphStyle(
+            name='TOCPage',
+            parent=styles['BodyText'],
+            fontName=FONT_NAME,
+            fontSize=8,
+            leading=12.8,
+            leftIndent=26,
+            firstLineIndent=0,
+            textColor=HexColor('#475569'),
+            spaceAfter=1,
+        ),
+    ]
 
     story = [
         PageBreak(),
         Paragraph('Daftar Isi', heading_style),
         Spacer(1, 8),
+        toc,
     ]
-    for role_index, (role_file, modules) in enumerate(roles, start=1):
-        role_label = first_heading_from_markdown(role_file)
-        story.append(Paragraph(f'{role_index}. {escape(role_label)}', role_style))
-        for menu_index, (menu_label, _, pages) in enumerate(modules, start=1):
-            story.append(Paragraph(
-                f'{role_index}.{menu_index} {escape(menu_label)}',
-                menu_style,
-            ))
-            for page_index, (page_label, _) in enumerate(pages, start=1):
-                story.append(Paragraph(
-                    f'{role_index}.{menu_index}.{page_index} {escape(page_label)}',
-                    page_style,
-                ))
     story.append(Spacer(1, 20))
     return story
+
+
+class NumberedDocTemplate(SimpleDocTemplate):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self._toc_key_counter = 0
+        self._role_index = 0
+        self._module_index = 0
+        self._page_index = 0
+
+    def beforeDocument(self):
+        self._toc_key_counter = 0
+        self._role_index = 0
+        self._module_index = 0
+        self._page_index = 0
+
+    def afterFlowable(self, flowable):
+        if not isinstance(flowable, Paragraph):
+            return
+
+        level_by_style = {
+            'RoleTitle': 0,
+            'ModuleTitle': 1,
+            'PageTitle': 2,
+        }
+        level = level_by_style.get(flowable.style.name)
+        if level is None:
+            return
+
+        text = flowable.getPlainText()
+        if level == 0:
+            self._role_index += 1
+            self._module_index = 0
+            self._page_index = 0
+            text = f'{self._role_index}. {text}'
+        elif level == 1:
+            self._module_index += 1
+            self._page_index = 0
+            text = f'{self._role_index}.{self._module_index} {text}'
+        else:
+            self._page_index += 1
+            text = f'{self._role_index}.{self._module_index}.{self._page_index} {text}'
+        displayed_page = max(1, self.page - 1)
+        self._toc_key_counter += 1
+        key = f'toc-{self._toc_key_counter}'
+        flowable._bookmarkName = key
+        self.canv.bookmarkPage(key)
+        self.canv.addOutlineEntry(text, key, level=level, closed=False)
+        self.notify('TOCEntry', (level, text, displayed_page, key))
 
 
 def generate_pdf():
     register_fonts()
     roles = build_documentation_structure()
 
-    doc = SimpleDocTemplate(
+    def draw_page(canvas, doc):
+        physical_page = canvas.getPageNumber()
+        if physical_page == 1:
+            return
+        displayed_page = physical_page - 1
+        canvas.saveState()
+        canvas.setStrokeColor(HexColor('#CBD5E1'))
+        canvas.setLineWidth(0.5)
+        canvas.line(PAGE_MARGIN, PAGE_MARGIN - 4 * mm, A4[0] - PAGE_MARGIN, PAGE_MARGIN - 4 * mm)
+        canvas.setFont(FONT_NAME, 8)
+        canvas.setFillColor(HexColor('#64748B'))
+        canvas.drawRightString(A4[0] - PAGE_MARGIN, PAGE_MARGIN - 7 * mm, str(displayed_page))
+        canvas.restoreState()
+
+    toc = TableOfContents()
+    doc = NumberedDocTemplate(
         str(OUTPUT_PATH),
         pagesize=A4,
         leftMargin=PAGE_MARGIN,
@@ -769,7 +828,7 @@ def generate_pdf():
     story.extend(build_cover_story(roles))
     story.append(PageBreak())
     story.extend(build_title_page_story(roles))
-    story.extend(build_toc_story(roles))
+    story.extend(build_toc_story(toc))
     for role_file, modules in roles:
         role_title = first_heading_from_markdown(role_file)
         story.extend(build_story_for_file(role_file, role_title, 'role', page_break=True))
@@ -777,7 +836,7 @@ def generate_pdf():
             story.extend(build_story_for_file(module_file, module_label, 'module', page_break=True))
             for page_label, page_file in pages:
                 story.extend(build_story_for_file(page_file, page_label, 'page', page_break=True))
-    doc.build(story)
+    doc.multiBuild(story, onFirstPage=lambda canvas, doc: None, onLaterPages=draw_page)
     print(f'Generated PDF: {OUTPUT_PATH}')
 
 
