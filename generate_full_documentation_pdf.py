@@ -706,34 +706,34 @@ def build_toc_story(toc):
             parent=styles['BodyText'],
             fontName=FONT_NAME_BOLD,
             fontSize=10,
-            leading=16,
+            leading=11,
             textColor=HexColor('#1F2937'),
             leftIndent=0,
             firstLineIndent=0,
             spaceBefore=5,
-            spaceAfter=3,
+            spaceAfter=0,
         ),
         ParagraphStyle(
             name='TOCModule',
             parent=styles['BodyText'],
             fontName=FONT_NAME,
             fontSize=9,
-            leading=14.4,
+            leading=10,
             leftIndent=12,
             firstLineIndent=0,
             textColor=HexColor('#334155'),
-            spaceAfter=2,
+            spaceAfter=0,
         ),
         ParagraphStyle(
             name='TOCPage',
             parent=styles['BodyText'],
             fontName=FONT_NAME,
             fontSize=8,
-            leading=12.8,
+            leading=9,
             leftIndent=26,
             firstLineIndent=0,
             textColor=HexColor('#475569'),
-            spaceAfter=1,
+            spaceAfter=0,
         ),
     ]
 
@@ -814,7 +814,16 @@ def generate_pdf():
         canvas.drawRightString(A4[0] - PAGE_MARGIN, PAGE_MARGIN - 7 * mm, str(displayed_page))
         canvas.restoreState()
 
-    toc = TableOfContents(dotsMinLevel=0)
+    toc = TableOfContents(
+        dotsMinLevel=0,
+        tableStyle=TableStyle([
+            ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+            ('LEFTPADDING', (0, 0), (-1, -1), 0),
+            ('RIGHTPADDING', (0, 0), (-1, -1), 0),
+            ('TOPPADDING', (0, 0), (-1, -1), 0),
+            ('BOTTOMPADDING', (0, 0), (-1, -1), 0),
+        ]),
+    )
     doc = NumberedDocTemplate(
         str(OUTPUT_PATH),
         pagesize=A4,
