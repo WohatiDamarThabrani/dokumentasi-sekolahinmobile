@@ -6,7 +6,7 @@ outline: deep
 
 Menu **Ajukan Izin** digunakan Wali Murid untuk mengajukan izin kepada wali kelas.
 
-## Cara mengirim pengajuan izin
+## Cara Mengirim Pengajuan Izin
 
 1. Buka menu **Ajukan Izin** yang terletak di Beranda. Lalu akan tampil halaman seperti berikut
     <img src="/images/wali-murid/ajukan-izin/ajukan-izin2.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">

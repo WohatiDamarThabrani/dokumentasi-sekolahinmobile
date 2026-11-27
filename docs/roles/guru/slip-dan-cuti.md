@@ -7,11 +7,11 @@ outline: deep
 Menu **Slip dan Cuti** memiliki dua tab, yaitu **Slip Gaji** dan **Cuti**.
      <img src="/images/guru/slip-cuti/sc3.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
-## Slip gaji
+## Slip Gaji
 
 Tab **Slip Gaji** menampilkan informasi gaji guru yang telah dibayarkan.
 
-## Mengajukan cuti atau izin
+## Cara Mengajukan Cuti atau Izin
 
 Tab **Cuti** berisi pengajuan cuti atau izin. Untuk mengajukan:
 

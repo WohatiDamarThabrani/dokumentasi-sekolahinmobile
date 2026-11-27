@@ -8,7 +8,7 @@ Menu Guru dan Staf berisi identitas guru yang ada di sekolah.
     <img src="/images/admin/guru/g4.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 Jika ada guru yang belum terdaftar di sistem, Admin dapat menambahkannya melalui fitur tambah guru.
 
-## Menambahkan guru ke sistem
+## Cara Menambahkan Guru ke Sistem
 
 1. Pada menu guru dan staf, gulir halaman ke bawah untuk menemukan tombol **+ Tambah Guru**. Tampilannya seperti ini:
     <img src="/images/admin/guru/g1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">

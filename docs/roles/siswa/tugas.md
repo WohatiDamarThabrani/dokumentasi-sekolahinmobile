@@ -7,7 +7,7 @@ outline: deep
 Menu **Tugas** menampilkan tugas yang diberikan guru kepada siswa. Menu ini tampil di bagian bawah layar
     <img src="/images/siswa/tugas/t3.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
-## Status tugas
+## Status Tugas
 
 Tugas dapat memiliki status berikut:
 
@@ -15,11 +15,11 @@ Tugas dapat memiliki status berikut:
 - **Terkumpul** — tugas sudah dikumpulkan.
 - **Dinilai** — tugas sudah diperiksa dan dinilai oleh guru.
 
-## Cara Melihat detail tugas
+## Cara Melihat Detail Tugas
 
 Klik tugas untuk melihat instruksi pengerjaan dan batas pengumpulan. Ikuti petunjuk pada detail tugas untuk mengerjakan dan mengumpulkannya.
 
-## Cara Mengumpulkan tugas
+## Cara Mengumpulkan Tugas
 
 1. Klik salah satu tugas yang akan dikumpulkan, kemudian akan terbuka halaman pengumpulan tugas. Tampilannya seperti berikut:
     <img src="/images/siswa/tugas/t1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">

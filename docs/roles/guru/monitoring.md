@@ -7,7 +7,7 @@ outline: deep
 Menu Monitoring membantu guru memantau kehadiran, setoran hafalan, perilaku, dan tugas siswa di kelas.
      <img src="/images/guru/monitoring/m3.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
-## Kehadiran siswa
+## Cara Mencatat Kehadiran Siswa
 
 Guru dapat melihat data kehadiran siswa dan mencatat absensi.
 
@@ -21,14 +21,14 @@ Guru dapat melihat data kehadiran siswa dan mencatat absensi.
 
 Pastikan absensi setiap siswa sudah diisi sebelum menyimpan.
 
-## Setoran hafalan
+## Setoran Hafalan
 
 Bagian ini menampilkan informasi setoran hafalan siswa. Klik **Catat Setoran** untuk membuka menu [Ceklis Hafalan](/roles/guru/ceklis-hafalan) dan mengikuti langkah pencatatan setoran.
 
-## Catatan perilaku
+## Catatan Perilaku
 
 Bagian ini menampilkan catatan perilaku siswa. Klik **Catat Perilaku** untuk membuka menu [Catat Poin](/roles/guru/catat-poin), lalu ikuti langkah pencatatan poin siswa.
 
-## Tugas siswa
+## Tugas Siswa
 
 Bagian ini menampilkan tugas-tugas yang diberikan kepada siswa. Klik **Tugas** untuk membuka menu [Tugas](/roles/guru/tugas), tempat guru dapat membuat tugas dan menilai hasil pekerjaan siswa.

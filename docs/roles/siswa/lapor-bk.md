@@ -6,7 +6,7 @@ outline: deep
 
 Menu **Lapor BK** digunakan siswa untuk melakukan bimbingan konseling dengan mengirim laporan atau menceritakan masalah kepada guru BK.
 
-## Mengirim laporan kepada Guru BK
+## Cara Mengirim Laporan Kepada Guru BK
 
 1. Buka menu **Lapor BK**. Tampilannya seperti berikut:
     <img src="/images/siswa/lapor-bk/lb1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">

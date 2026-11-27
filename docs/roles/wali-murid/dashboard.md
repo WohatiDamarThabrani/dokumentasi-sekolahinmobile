@@ -7,11 +7,11 @@ outline: deep
 Dashboard menampilkan ringkasan informasi dan aktivitas anak di sekolah.
     <img src="/images/wali-murid/dashboard/dash5.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
-## Memilih anak
+## Memilih Anak
 
 Jika memiliki lebih dari satu anak di sekolah yang sama, pilih anak yang ingin dilihat melalui tombol dropdown di bagian atas halaman.
 
-## Kotak Informasi pada dashboard
+## Kotak Informasi Pada Dashboard
 
 - **Kehadiran** menampilkan informasi kehadiran anak pada hari yang sedang berjalan.
 - **Tugas** menampilkan jumlah tugas yang masih aktif disertai jumlah tugas yang sudah dikumpulkan anak.

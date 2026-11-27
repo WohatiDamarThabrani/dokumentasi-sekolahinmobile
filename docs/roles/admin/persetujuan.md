@@ -7,17 +7,17 @@ outline: deep
 Menu Persetujuan berisi daftar pengajuan, seperti izin siswa, cuti staf, dan pengajuan lainnya. Admin dapat meninjau setiap pengajuan, lalu menyetujui atau menolaknya.
     <img src="/images/admin/persetujuan/p1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
-## Menyaring jenis pengajuan
+## Menyaring Jenis Pengajuan
 
 1. Klik **Saring Jenis Pengajuan**.
 2. Pada pop-up yang muncul, pilih jenis pengajuan yang ingin ditampilkan.
 
-## Menyetujui dan Menolak Pengajuan
+## Cara Menyetujui dan Menolak Pengajuan
 
 1. Setelah membuka menu persetujuan, maka akan tampil pengajuan berupa izin, cuti, dan sebagainya yang diajukan oleh siswa maupun guru/staf. 
 2. Pengajuan tersebut dapat diurutkan berdasarkan waktu pengajuan maupun pelaksanaannya melalui filter urutkan antrean.
 3. Klik tombol <img src="/images/guru/dashboard/dash3.jpeg" alt="" style="display: inline; width: auto; height: 1.5em; vertical-align: middle; margin: 0;"> untuk menyetujui pengajuan atau <img src="/images/guru/dashboard/dash4.jpeg" alt="" style="display: inline; width: auto; height: 1.5em; vertical-align: middle; margin: 0;"> untuk menolaknya.
 
-## Melihat riwayat persetujuan
+## Melihat Riwayat Persetujuan
 
 Klik **Riwayat** untuk melihat pengajuan yang telah diproses, baik yang disetujui maupun yang ditolak.

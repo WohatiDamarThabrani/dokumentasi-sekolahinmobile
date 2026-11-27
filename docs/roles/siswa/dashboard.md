@@ -7,7 +7,7 @@ outline: deep
 Dashboard Siswa menampilkan ringkasan kegiatan belajar dan akses cepat ke fitur yang sering digunakan.
     <img src="/images/siswa/dashboard/d1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
-## Informasi hari ini
+## Informasi Hari Ini
 
 Dashboard menampilkan informasi berikut:
 
@@ -29,11 +29,11 @@ Gunakan menu cepat pada Dashboard untuk membuka:
 - [Kalender](/roles/siswa/kalender)
 - [Lapor BK](/roles/siswa/lapor-bk)
 
-## Tugas yang belum dikerjakan
+## Tugas yang Belum Dikerjakan
 
 Bagian tugas menampilkan tugas yang belum diselesaikan. Klik salah satu tugas untuk membuka detail, membaca instruksi dan batas pengumpulan, serta melihat cara mengumpulkan tugas. Buka [menu Tugas](/roles/siswa/tugas) untuk melihat panduannya.
 
-## Langkah penggunaan
+## Langkah Penggunaan
 
 1. Buka menu **Dashboard**.
 2. Periksa jadwal hari ini, persentase kehadiran, tugas baru, dan rata-rata nilai.

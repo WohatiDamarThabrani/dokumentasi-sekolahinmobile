@@ -8,7 +8,7 @@ Menu Pesan digunakan guru untuk mengirim pesan kepada wali murid.
       <img src="/images/guru/pesan/p4.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
 
-## Memulai percakapan
+## Cara Memulai Percakapan
 
 1. Buka menu **Pesan** di bagian bawah layar.
 2. Klik tombol <img src="/images/guru/tugas/t1.jpeg" alt="" style="display: inline; width: auto; height: 1.5em; vertical-align: middle; margin: 0;"> di bagian atas layar atau di pojok kanan bawah halaman. Lalu akan tampil pop-up berikut:

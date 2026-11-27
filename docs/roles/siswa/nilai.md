@@ -7,7 +7,7 @@ outline: deep
 Menu **Nilai** menampilkan nilai harian dan rapor siswa.
     <img src="/images/siswa/nilai/n1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
-## Nilai harian
+## Nilai Harian
 
 Nilai harian menampilkan nilai anak untuk setiap mata pelajaran. Nilai yang ditampilkan meliputi nilai **Tugas**, **UTS**, **UAS**, **Praktik**, **Proyek**, dan **Sikap**. Nilai-nilai tersebut ditampilkan per mata pelajaran dan dihitung rata-ratanya.
 

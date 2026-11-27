@@ -7,7 +7,7 @@ outline: deep
 Menu Ceklis Hafalan digunakan untuk mencatat setoran hafalan siswa.
     <img src="/images/guru/ceklis-hafalan/ch4.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
-## Mencatat setoran
+## Cara Mencatat Setoran
 
 1. Buka menu **Ceklis Hafalan**.
 2. Pilih surah atau doa yang disetorkan.

@@ -7,7 +7,7 @@ outline: deep
 Menu Keuangan membantu Admin memantau pembayaran siswa dan mengelola tagihan sekolah.
     <img src="/images/admin/keuangan/k5.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
-## Memantau pembayaran
+## Memantau Pembayaran
 
 Pilih bulan/periode yang ingin ditinjau. Informasi pembayaran dan tunggakan akan menyesuaikan periode tersebut, meliputi:
 
@@ -21,7 +21,7 @@ Gunakan tombol berikut untuk melihat tagihan berdasarkan status:
 
 Untuk mengingatkan wali murid yang belum membayar, klik **Kirim Pengingat Tagihan**. Notifikasi pengingat akan dikirim kepada wali murid terkait.
 
-## Cara Membuat tagihan
+## Cara Membuat Tagihan
 
 1. Pada menu keuangan, gulir halaman ke bawah untuk menemukan tombol **Buat Tagihan**. Tampilannya seperti berikut:
     <img src="/images/admin/keuangan/k1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">

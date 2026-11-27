@@ -6,7 +6,7 @@ outline: deep
 
 Menu **Input Nilai** digunakan untuk memberikan nilai mata pelajaran kepada siswa.
 
-## Mengisi dan menyimpan nilai
+## Cara Mengisi dan Menyimpan Nilai
 
 1. Buka menu **Input Nilai**, lalu akan tampil halaman berikut:
    <img src="/images/guru/input-nilai/i1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">

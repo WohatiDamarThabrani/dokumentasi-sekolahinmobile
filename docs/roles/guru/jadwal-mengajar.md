@@ -7,13 +7,13 @@ outline: deep
 Menu Jadwal Mengajar menampilkan jadwal mengajar guru pada hari yang sedang berjalan.
     <img src="/images/guru/jadwal-mengajar/jm3.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
-## Informasi yang ditampilkan
+## Informasi yang Ditampilkan
 
 - jam mengajar
 - mata pelajaran
 - kelas yang diajar
 
-## Mengisi absensi siswa
+## Cara Mengisi Absensi Siswa
 
 1. Pada menu **Jadwal Mengajar**, pilih jadwal dengan jam, mata pelajaran, dan kelas yang sesuai. Lalu akan tampil halaman Catat absensi seperti berikut:
     <img src="/images/guru/jadwal-mengajar/jm1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">

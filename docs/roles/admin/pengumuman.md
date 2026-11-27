@@ -5,7 +5,7 @@ outline: deep
 # Pengumuman
 Menu ini digunakan untuk memberikan pemberitahuan kepada siswa atau wali murid.
 
-## Cara Membuat pengumuman
+## Cara Membuat Pengumuman
 
 1. Klik ikon tiga garis horizontal <img src="/images/admin/pengumuman/p3.jpeg" alt="" style="display: inline; width: auto; height: 1.5em; vertical-align: middle; margin: 0;"> di pojok kiri atas layar.
 2. Pilih menu **Pengumuman**, lalu akan tampil halaman pembuatan pengumuman seperti berikut:

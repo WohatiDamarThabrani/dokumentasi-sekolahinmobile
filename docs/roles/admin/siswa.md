@@ -8,7 +8,7 @@ Menu Siswa berisi identitas siswa yang ada di sekolah.
     <img src="/images/admin/siswa/s4.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 Jika ada siswa yang belum terdaftar di sistem, Admin dapat menambahkannya melalui fitur tambah siswa.
 
-## Menambahkan siswa ke sistem
+## Cara Menambahkan Siswa ke Sistem
 
 1. Pada menu siswa, gulir halaman ke bawah untuk menemukan tombol **+ Tambah Siswa**. Tampilannya seperti ini:
     <img src="/images/admin/siswa/s1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">

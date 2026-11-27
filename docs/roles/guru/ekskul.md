@@ -6,7 +6,7 @@ outline: deep
 
 Menu **Ekskul** menampilkan kegiatan ekstrakurikuler yang dibina oleh guru. Guru dapat memberikan nilai kepada siswa yang mengikuti ekskul tersebut.
 
-## Memberikan nilai ekskul
+## Cara Memberikan Nilai Ekskul
 
 1. Buka menu **Ekskul**, lalu akan tampil halaman berikut:
     <img src="/images/guru/ekskul/e1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">

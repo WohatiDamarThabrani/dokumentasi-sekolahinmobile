@@ -8,7 +8,7 @@ Dashboard Guru menampilkan informasi absensi siswa, perizinan siswa, penilaian t
     <img src="/images/guru/dashboard/dash5.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
 
-## Informasi siswa dan tugas
+## Informasi Siswa dan Tugas
 
 Dashboard menyediakan ringkasan untuk membantu guru menindaklanjuti:
 
@@ -16,7 +16,7 @@ Dashboard menyediakan ringkasan untuk membantu guru menindaklanjuti:
 - perizinan siswa
 - penilaian tugas
 
-### Menindaklanjuti perizinan siswa
+### Cara Menindaklanjuti Perizinan Siswa
 
 1. Klik kotak informasi **Izin Menunggu**. Lalu akan tampil halaman persetujuan izin seperti berikut:
     <img src="/images/guru/dashboard/dash2.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">

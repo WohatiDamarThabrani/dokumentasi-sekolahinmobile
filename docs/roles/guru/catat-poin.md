@@ -6,7 +6,7 @@ outline: deep
 
 Menu Catat Poin digunakan untuk mencatat poin siswa atas prestasi atau pelanggaran.
 
-## Mencatat poin siswa
+## Cara Mencatat Poin Siswa
 
 1. Buka menu **Catat Poin**. Lalu akan tampil halaman berikut:
     <img src="/images/guru/catat-poin/cp1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">

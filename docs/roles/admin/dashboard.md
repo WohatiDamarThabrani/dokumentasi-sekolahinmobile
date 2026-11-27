@@ -7,11 +7,11 @@ outline: deep
 Dasbor menyajikan ringkasan kondisi sekolah dan pintasan ke menu yang perlu ditindaklanjuti oleh Admin.
     <img src="/images/admin/dashboard/d3.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
-## Ringkasan sekolah
+## Ringkasan Sekolah
 
 Dasbor menampilkan jumlah total siswa, guru, dan staf. Untuk masing-masing kelompok, tersedia jumlah yang hadir pada hari yang sedang berlangsung.
 
-## Ringkasan keuangan
+## Ringkasan Keuangan
 
 Informasi keuangan pada dasbor mencakup:
 
@@ -20,11 +20,11 @@ Informasi keuangan pada dasbor mencakup:
 
 Grafik garis merangkum pemasukan dan pengeluaran selama enam bulan terakhir. Gunakan grafik ini untuk membandingkan perubahan keuangan dari bulan ke bulan.
 
-## Pintasan persetujuan
+## Pintasan Persetujuan
 
 Bagian persetujuan menyediakan pintasan menuju menu [Persetujuan](/roles/admin/persetujuan).
 
-### Langkah penggunaan
+### Langkah Penggunaan
 
 1. Temukan pintasan persetujuan pada dasbor.
     <img src="/images/admin/dashboard/d1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">

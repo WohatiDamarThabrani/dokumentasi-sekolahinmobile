@@ -7,7 +7,7 @@ outline: deep
 Menu **Kabar Sekolah** berisi pengumuman yang diberikan oleh guru atau kepala sekolah.
     <img src="/images/wali-murid/kabar-sekolah/ks1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
 
-## Memilih jenis pengumuman
+## Memilih Jenis Pengumuman
 
 Pilih tab di bagian atas halaman untuk memfilter pengumuman berdasarkan jenis:
 

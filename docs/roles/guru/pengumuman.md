@@ -6,7 +6,7 @@ outline: deep
 
 Menu **Pengumuman** digunakan guru untuk membuat pengumuman kepada siswa atau wali murid.
 
-## Membuat pengumuman
+## Cara Membuat Pengumuman
 
 1. Buka menu **Pengumuman**. Lalu akan tampil halaman seperti berikut:
     <img src="/images/guru/pengumuman/p1.jpeg" alt="" style="display: block; max-width: 50%; height: auto;">
