@@ -7,8 +7,8 @@
 6 silly config load:file:C:\Users\HP\AppData\Roaming\npm\etc\npmrc
 7 verbose title npm run docs:build
 8 verbose argv "run" "docs:build"
-9 verbose logfile logs-max:10 dir:D:\Magang\sekolahin_mobile\template-dokumentasi-2-role\.npm-cache\_logs\2026-11-23T08_25_30_232Z-
-10 verbose logfile D:\Magang\sekolahin_mobile\template-dokumentasi-2-role\.npm-cache\_logs\2026-11-23T08_25_30_232Z-debug-0.log
+9 verbose logfile logs-max:10 dir:D:\Magang\sekolahin_mobile\template-dokumentasi-2-role\.npm-cache\_logs\2026-11-27T04_10_38_786Z-
+10 verbose logfile D:\Magang\sekolahin_mobile\template-dokumentasi-2-role\.npm-cache\_logs\2026-11-27T04_10_38_786Z-debug-0.log
 11 silly logfile start cleaning logs, removing 1 files
 12 silly logfile done cleaning log files
 13 verbose cwd D:\Magang\sekolahin_mobile\template-dokumentasi-2-role
