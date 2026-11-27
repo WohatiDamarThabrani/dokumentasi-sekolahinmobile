@@ -716,7 +716,7 @@ def build_toc_story(toc):
         ParagraphStyle(
             name='TOCModule',
             parent=styles['BodyText'],
-            fontName=FONT_NAME_BOLD,
+            fontName=FONT_NAME,
             fontSize=9,
             leading=14.4,
             leftIndent=12,
@@ -814,7 +814,7 @@ def generate_pdf():
         canvas.drawRightString(A4[0] - PAGE_MARGIN, PAGE_MARGIN - 7 * mm, str(displayed_page))
         canvas.restoreState()
 
-    toc = TableOfContents()
+    toc = TableOfContents(dotsMinLevel=0)
     doc = NumberedDocTemplate(
         str(OUTPUT_PATH),
         pagesize=A4,
